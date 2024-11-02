@@ -1,0 +1,114 @@
+.leftbarMainContainer {
+    flex: 0.7;
+    background-color: black;
+    height: 100vh;
+}
+
+.logoname {
+    color: white;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+.dot{
+    color: red;
+    font-weight: 400;
+}
+.liListname{
+    color: rgb(184, 184, 184);
+    margin-left: 10px;
+
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.menu{
+    color: rgb(141, 136, 136);
+    margin-left: 1rem;
+}
+
+.listicons{
+    width: 20px;
+    height: 20px;
+    margin-left: -12px;
+   
+}
+
+.lastimage{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: 70px;
+    margin-top: -20px;
+
+}
+
+.popcor {
+    color: rgb(169, 169, 169);
+    margin-left: 46px;
+    margin-top: -4px;
+}
+
+.viwingtime{
+    color: white;
+    font-size: 11px;
+    margin-left: 51px;
+    margin-top: -10px;
+    position: relative;
+}
+
+.btnchallenges {
+    color:rgb(169, 169, 169) ;
+    margin-left: 55px;
+    color: black;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+
+.leftbarlastdiv{
+    margin-left: 30px;
+    background-color: #191414;
+    margin-right: 40px;
+    border-radius: 15px;
+    padding: 2px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:764px) {
+    .liListname{
+        display: none;
+
+    }
+
+    li{
+        margin-top: 12px;
+        margin-left: -12px;
+    }
+    .leftbarlastdiv{
+        display: none;
+
+    }
+    .leftbarMainContainer{
+        flex: 0.2;
+        background-color: black;
+        height: 100vh;
+       
+    }
+    .logoname{
+        font-size: 13px;
+        margin-left: 4px;
+    }
+    .menu{
+        font-size: 11px;
+        margin-left: 4px;
+
+    }
+}
